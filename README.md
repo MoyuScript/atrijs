@@ -7,7 +7,7 @@ A high-performance keyboard and mouse monitor for Node.js (Windows only)
 Install by using npm:
 
 ```bash
-$ npm install atrijs
+$ npm install --save atrijs
 ```
 
 Install by using yarn:
