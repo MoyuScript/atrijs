@@ -1,0 +1,21 @@
+{
+  "name": "atrijs",
+  "version": "1.0.0",
+  "main": "src/atri.js",
+  "license": "MIT",
+  "keywords": ["mouse", "keyboard", "event", "monitor", "windows"],
+  "description": "A keyboard and mouse monitor for Node.js (Windows only)",
+  "os": ["win32"],
+  "author": {
+    "name": "MoyuScript",
+    "email": "i@moyu.moe",
+    "url": "https://www.moyu.moe/"
+  },
+  "repository": "https://github.com/MoyuScript/atrijs",
+  "homepage": "https://github.com/MoyuScript/atrijs",
+  "bugs": "https://github.com/MoyuScript/atrijs/issues/new",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^4.1.0"
+  }
+}
