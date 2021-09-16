@@ -1,6 +1,6 @@
 {
   "name": "atrijs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/atri.js",
   "license": "MIT",
   "keywords": ["mouse", "keyboard", "event", "monitor", "windows"],

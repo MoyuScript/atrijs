@@ -156,6 +156,14 @@ class Atri extends events.EventEmitter {
 
     super();
 
+    this._worker;
+    this._initializeWorker();
+    
+
+    atriInstance = this;
+  }
+
+  _initializeWorker() {
     this._worker = new Worker(path.resolve(__dirname, './worker.js'));
     this._worker.on("message", (/**@type {ATRI.EventData} */ event) => {
       // Additional data of timestamp
@@ -167,11 +175,9 @@ class Atri extends events.EventEmitter {
       this.emit(event.type, event);
     });
 
-    atriInstance = this;
-  }
-
-  cleanup() {
-    return this._worker.terminate();
+    this._worker.on("error", (err) => {
+      setImmediate(this._initializeWorker.bind(this));
+    });
   }
 }
 
