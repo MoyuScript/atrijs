@@ -1,4 +1,4 @@
-# ATRJ.js
+# ATRI.js
 
 A high-performance keyboard and mouse monitor for Node.js (Windows only)
 
