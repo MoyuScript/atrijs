@@ -1,5 +1,6 @@
 const {isMainThread, parentPort} = require('worker_threads');
-const atri = require('bindings')('atrijs');
+const path = require('path');
+const atri = require(path.resolve(__dirname, '../build/Release/atrijs.node'));
 
 atri.registerEvent((event) => {
   if (isMainThread) {

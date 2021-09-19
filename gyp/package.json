@@ -1,23 +1,12 @@
 {
   "name": "atrijs",
-  "version": "1.0.3",
+  "version": "1.0.2",
+  "private": "true",
   "main": "src/atri.js",
   "license": "MIT",
-  "scripts": {
-    "build": "gulp build",
-    "dev": "gulp debug"
-  },
-  "keywords": [
-    "mouse",
-    "keyboard",
-    "event",
-    "monitor",
-    "windows"
-  ],
+  "keywords": ["mouse", "keyboard", "event", "monitor", "windows"],
   "description": "A keyboard and mouse monitor for Node.js (Windows only)",
-  "os": [
-    "win32"
-  ],
+  "os": ["win32"],
   "author": {
     "name": "MoyuScript",
     "email": "i@moyu.moe",
@@ -26,9 +15,8 @@
   "repository": "https://github.com/MoyuScript/atrijs",
   "homepage": "https://github.com/MoyuScript/atrijs",
   "bugs": "https://github.com/MoyuScript/atrijs/issues/new",
-  "dependencies": {},
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-cli": "^2.3.0"
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^4.1.0"
   }
 }

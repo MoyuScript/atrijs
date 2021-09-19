@@ -4,13 +4,6 @@ A high-performance keyboard and mouse monitor for Node.js (Windows only)
 
 # Installation
 
-**Environment acquirements:**
-
-+ [Build Tools for Visual Studio 2019](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019) With "Desktop development with C++" workload.
-+ [Python 3.X](https://www.python.org/)
-
-**You must to install environments above to build this module automatically.**
-
 Install by using npm:
 
 ```bash
